@@ -14,7 +14,7 @@ logintest
     Click Element    link=Logout    
     #variable systeme
     Log    ceci est un test execute par%{username} dans %{os}
-    Log    ceci est test de commit git
+    Log    ceci est test de commit git a
     Log    end of test by by 
     
     
