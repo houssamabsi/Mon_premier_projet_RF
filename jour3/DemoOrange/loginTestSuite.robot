@@ -12,9 +12,12 @@ logintest
     Click Element    id=welcome
     Set Browser Implicit Wait    5        
     Click Element    link=Logout    
-    Log    end of test by by 
     #variable systeme
     Log    ceci est un test execute par%{username} dans %{os}
+    Log    ceci est test de commit git
+    Log    end of test by by 
+    
+    
 
 *** Variables ***
 #varibale de type scalaire
